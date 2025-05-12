@@ -1,0 +1,66 @@
+/*Cabeçalho*/
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/*Body*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+/*Rodapé*/
+footer{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+/*Seções*/
+section{
+    background-color: white;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 0px 2px 4px black;
+}
+
+/*Área de Navegação*/
+nav ul{
+    list-style-type: none;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #999;
+}
+
+div{
+    text-align: center;
+}
+
+.image{
+    vertical-align: middle;
+}
